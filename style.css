@@ -1,0 +1,172 @@
+* {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 700;
+}
+
+body {
+	background: rgb(236,236,237);
+	background: linear-gradient(90deg, rgba(236,236,237,1) 45%, rgba(196,196,196,1) 45%);
+	margin-left: 15vw;
+	width: 1440px;
+	height: 900px;
+}
+
+header {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: grid;
+	padding-left: 1%;;
+	padding-right: 1%;;
+	grid-template-columns: 1fr 2fr 2fr 2fr 2fr 200px 1fr;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	border-bottom: 5px solid transparent;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 1;
+	border-bottom: 5px solid red;
+}
+
+.no-hover-line:hover {
+	border: none;
+	opacity: .8;
+}
+
+.no-hover-line {
+	border: none;
+}
+
+header button {
+	font-size: 24px;
+}
+
+.header__button:hover {
+	border-top: 5px solid red;
+	border-bottom: none;
+}
+
+#logo {
+	background-image: url('assets/logo.svg');
+	width: 52px;
+	height: 36px;
+}
+
+header div {
+	display: flex;
+}
+
+header div button {
+	background-color: white;
+	background-image: url('assets/icon-search.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;;
+}
+
+input {
+	font-weight: 300;
+	font-size: 18px;
+	width: 140px;
+	border: none;
+	outline: none;
+}
+
+#button__bag {
+	background-image: url('assets/icon-bag.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+main {
+	margin-bottom: 5.2%;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+
+main section h1 {
+	font-size: 60px;
+}
+
+main section p {
+	color: #9C9696;
+}
+
+main section h2 {
+	font-size: 40px;
+}
+
+main section button {
+	color: white;
+	font-size: 24px;
+	background-color: red;
+	width: 274px;
+	height: 90px;
+}
+
+main div {
+	display: flex;
+	flex-direction: column;
+}
+
+main div img {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main div div img {
+	width: 270px;
+	height: 184px;
+	background-size: contain;
+}
+main div div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.button__photo {
+	width: 275px;
+	height: 189px;
+	border-bottom: 5px solid transparent;
+}
+
+#button__photo__zoom {
+	border-bottom: 5px solid transparent;
+	width: 850px;
+}
+
+footer {
+	background-color: #ececed;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+footer button {
+	font-size: 18px;
+}
+
+#button__explore {
+	font-size: 24px;
+	color: white;
+	background-color: black;
+	vertical-align: middle;
+	border-bottom: none;
+}
+
+#button__explore:hover {
+	border-left: 25px solid black;
+}
+
+#button__explore div {
+	display: inline;
+	height: 100%;
+}
+
+#button__explore div img {
+	vertical-align: middle;
+}
