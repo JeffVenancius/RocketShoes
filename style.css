@@ -13,7 +13,7 @@ body {
 
 header {
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 0;
 	display: grid;
 	padding-left: 1%;;
 	padding-right: 1%;;
@@ -83,24 +83,31 @@ input {
 }
 
 main {
-	margin-bottom: 5.2%;
+	margin-bottom: 2.7%;
 	display: grid;
-	grid-template-columns: 2fr 3fr;
+	grid-template-columns: 3fr 4fr;
 }
 
-main section h1 {
+main section div {
+	width: 50%;
+}
+
+main section div h1 {
 	font-size: 60px;
+	margin-bottom: 10px;
 }
 
-main section p {
+main section div p {
 	color: #9C9696;
+	margin-bottom: 30px;
 }
 
-main section h2 {
+main section div h2 {
+	margin-bottom: 30px;
 	font-size: 40px;
 }
 
-main section button {
+main section div button {
 	color: white;
 	font-size: 24px;
 	background-color: red;
@@ -140,6 +147,9 @@ main div div {
 	width: 850px;
 }
 
+#button__photo__zoom:hover {
+	border-bottom: 5px solid red;
+}
 footer {
 	background-color: #ececed;
 	display: grid;
